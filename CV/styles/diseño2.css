@@ -1,0 +1,121 @@
+.nav-item{
+    padding-left: 2%;
+}
+
+.navbar-brand{
+    padding-right: 67%;
+}
+
+.experiencia{
+    padding-left: 82%;
+    padding-right: 0.2%;
+}
+
+.bx{
+    padding: 0.9%;
+    padding-left: 0%;
+    padding-top: 1%;
+    font-size: 180%;
+}
+
+
+.card-body{
+    padding-bottom: 2%;
+    margin-right: 10%;
+    margin-left: 1%;
+    font-size: 120%;
+}
+
+
+.bloque {
+    position:absolute;
+    right:0px;
+    top: 18%;
+    justify-items: center;
+    flex-direction: column;
+    text-align: justify;
+    border: 4px;
+    border-radius: 18px;
+    background-color:darkred;
+    width: 40%;
+    height: 40%;
+    margin-right: 30%;
+    padding: 20px;
+}
+
+.pd{
+    color: whitesmoke;
+}
+
+ul{
+    color: whitesmoke;
+}
+
+  
+
+.footer{
+    justify-content: center;
+    display: flex;
+    position:fixed;
+    left:0px;
+    bottom: 0%;
+    height: 32px;
+    width:100%;
+    background-color: #999;
+ }
+
+.footer2{
+    position:fixed;
+    left: 0.5%;
+    bottom: 15%;
+    height: 75px;
+    width: 99%;
+    
+}
+
+.footer-title{
+    padding-bottom: 1%;
+
+}
+
+
+.bxl-facebook-square{
+    color: #3b5998;
+}
+
+.bxl-instagram{
+    color: #517fa4;
+    padding-left: 25px;
+}
+
+.bxl-youtube{
+    color: #c4302b;
+}
+
+.bxl-github{
+    color: #0e76a8;
+    padding-left: 35px;
+    padding-top: 18px;
+}
+
+.img{
+    border-radius: 30px;
+    left: 51.4%;
+    bottom: 45.7%;
+    position: fixed;
+    height: 33%;
+
+}
+
+.background-img{
+    justify-content: center;
+    height: 921px;
+    width: 100%;
+
+}
+
+.lista{
+    margin: 1px;
+    padding-right: 10px;
+    font-size: 135%;
+}
