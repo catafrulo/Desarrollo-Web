@@ -35,7 +35,7 @@
     top: 14%;
     justify-items: center;
     flex-direction: column;
-    text-align: justify
+    text-align: justify;
     border: 4px;
     border-radius: 18px;
     background-color:darkred;
@@ -90,8 +90,8 @@ ul{
     padding-left: 25px;
 }
 
-.bxl-youtube{
-    color: #c4302b;
+.bxl-whatsapp{
+    color: #A4c639;
 }
 
 
@@ -118,25 +118,19 @@ ul{
 
 .background-img{
     justify-content: center;
-    height: 921px;
     width: 100%;
-
-}
-
-li{
-    padding: 0.3%;
+    height: 91vh;
     
+
 }
 
 .ul{
     display: flex;
     flex-direction: column;
-    position:absolute;
+    position:relative;
     color: white;
     padding: 0px;
-    padding-top: 8px;
-    top: 16.4%;
-    font-size:1.5dvw;
+    font-size: 170%;
     
 }
 
@@ -147,3 +141,11 @@ li{
     padding-left: 25px;
 }
 
+
+  @media only screen and (min-device-width: 412px) and (max-device-width: 1400px) and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+      line-height: 1.4;
+    }
+  }
+
+  
