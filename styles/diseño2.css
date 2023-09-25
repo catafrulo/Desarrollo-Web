@@ -1,20 +1,10 @@
 .nav-item{
-<<<<<<< HEAD:CV/styles/diseño2.css
     padding-left: 2%;
     margin: 0.4%;
 }
 
 .navbar-brand{
     padding-right: 69%;
-=======
-    padding-left: 1.5%;
-
-}
-
-.navbar-nav{
-    position: absolute;
-    right: 1.8%;
->>>>>>> a6221ed6ab0b48e06beec2abb869c75d517de813:styles/diseño2.css
 }
 
 .experiencia{
@@ -47,22 +37,15 @@
     text-align: justify;
     border: 4px;
     border-radius: 18px;
-<<<<<<< HEAD:CV/styles/diseño2.css
     background-color:rgba(59, 17, 17, 0.932);
     width: 24%;
     height: 40%;
     margin-right: 38%;
-=======
-    background-color:darkred;
-    width: 50%;
-    height: 52%;
->>>>>>> a6221ed6ab0b48e06beec2abb869c75d517de813:styles/diseño2.css
     padding: 20px;
 }
 
 .pd{
     color: whitesmoke;
-<<<<<<< HEAD:CV/styles/diseño2.css
     display: flex;
     justify-content: flex-start;
     position: relative;
@@ -74,40 +57,6 @@
     margin: 0px;
     font-size: 2.35vh;
     list-style: none;
-=======
-    font-size:3dvw;
-}
-
-ul{
-    color: whitesmoke;
-}
-
-  
-
-.footer{
-    justify-content: center;
-    display: flex;
-    position:fixed;
-    left:0px;
-    bottom: 0%;
-    height: 30px;
-    width:100%;
-    background-color: #999;
- }
-
-.footer2{
-    position:fixed;
-    left: 0.5%;
-    bottom: 18.4%;
-    height: 75px;
-    width: 99%;
-    
-}
-
-.footer-title{
-    padding-bottom: 0%;
-
->>>>>>> a6221ed6ab0b48e06beec2abb869c75d517de813:styles/diseño2.css
 }
 
 .lista li span{
@@ -123,81 +72,27 @@ ul{
 }
 
 .bxl-whatsapp{
-<<<<<<< HEAD:CV/styles/diseño2.css
     color: #25D366;
-=======
-    color: #A4c639;
->>>>>>> a6221ed6ab0b48e06beec2abb869c75d517de813:styles/diseño2.css
 }
 
 
 
 .bxl-github{
     color: #0e76a8;
-<<<<<<< HEAD:CV/styles/diseño2.css
-=======
-    padding-left: 35px;
-    padding-top: 18px;
-}
-
-.img{
-    border: 6px;
-    border-style:solid;
-    border-color: black;
-    border-radius: 30px;
-    left: 56.4%;
-    bottom: 11%;
-    width: 40%;
-
-    position: absolute;
-    
-
->>>>>>> a6221ed6ab0b48e06beec2abb869c75d517de813:styles/diseño2.css
 }
 
 .background-img{
     justify-content: center;
-<<<<<<< HEAD:CV/styles/diseño2.css
     height: 94vh;
-=======
->>>>>>> a6221ed6ab0b48e06beec2abb869c75d517de813:styles/diseño2.css
     width: 100%;
     height: 91vh;
     
 
 }
 
-<<<<<<< HEAD:CV/styles/diseño2.css
 .nav-link:hover{
     background: #ff96ad;
     box-shadow: 0 0 5px #ff96ad, 0 0 25px
     #ff96ad, 00 50px #ff96ad, 
     0 0 200px #ff96ad;
 }
-=======
-.ul{
-    display: flex;
-    flex-direction: column;
-    position:relative;
-    color: white;
-    padding: 0px;
-    font-size: 170%;
-    
-}
-
-.datos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 25px;
-}
-
-
-  @media only screen and (min-device-width: 412px) and (max-device-width: 1400px) and (-webkit-min-device-pixel-ratio: 2) {
-    body {
-      line-height: 1.4;
-    }
-  }
-
-  
->>>>>>> a6221ed6ab0b48e06beec2abb869c75d517de813:styles/diseño2.css
