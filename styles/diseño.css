@@ -1,22 +1,22 @@
 .nav-item{
-    padding-left: 1.5%;
-}
-
-.navbar-nav{
-    position: absolute;
-    right: 0.5%;
-    top: -7.7px;
-    padding: 0px;
+    padding-left: 2%;
+    margin: 0.4%;
 }
 
 .navbar-brand{
-    padding-right: 67%;
-    
+    padding-right: 69%;
+}
+
+.nav-link:hover{
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px
+    #ff96ad, 00 50px #ff96ad, 
+    0 0 200px #ff96ad;
 }
 
 .experiencia{
     padding-left: 82%;
-    padding-right: 1%;
+    padding-right: 0.2%;
 }
 
 .bx{
