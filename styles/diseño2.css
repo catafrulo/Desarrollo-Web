@@ -4,14 +4,17 @@
 }
 
 .navbar-brand{
-    padding-right: 69%;
+    padding-right: 67%;
 }
 
 .nav-link:hover{
     background: #ff96ad;
     box-shadow: 0 0 5px #ff96ad, 0 0 25px
-    #ff96ad, 00 50px #ff96ad, 
-    0 0 200px #ff96ad;
+    #ff96ad;
+}
+
+.navbar-togler{
+    display: block;
 }
 
 .experiencia{
@@ -34,21 +37,17 @@
     font-size: 120%;
 }
 
-
 .bloque {
-    position: absolute;
-    right:20%;
-    top: 14%;
-    justify-items: center;
+    position:absolute;
+    top: 22%;
+    left: 38%;
     flex-direction: column;
-    text-align: justify;
-    border: 4px;
     border-radius: 18px;
     background-color:rgba(59, 17, 17, 0.932);
     width: 24%;
-    height: 40%;
-    margin-right: 38%;
-    padding: 20px;
+    height: auto;
+    padding: 0.8%;
+
 }
 
 .pd{
@@ -89,6 +88,7 @@
 }
 
 .background-img{
+    position: absolute;
     justify-content: center;
     height: 94vh;
     width: 100%;
