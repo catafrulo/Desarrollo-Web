@@ -59,3 +59,10 @@
     display: flex;
 }
 
+.nav-link:hover{
+    transition: ease-in-out;
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 
+    0 0 20px #ff96ad,
+    0 0 50px #ff96ad;
+}

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="diseño2.css">
+    <link rel="stylesheet" href="styles/diseño2.css">
+    <link rel="stylesheet" href="styles/diseñofooter.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
@@ -12,97 +13,84 @@
 </head>
 <body>
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Matias Pedemonte</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
-                    </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="Experiencia.html" class="experiencia">Experiencia</a> 
-                  </li>
-                    <li class="nav-item">
-                    <a class="nav-link active" href="Educacion.html" class="educacion">Educacion</a>
-                    </li>   
-                  <li class="nav-item">
-                    <a class="nav-link active" href="Competencias.html" class="competencias">Competencias</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">Matias Pedemonte</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Experiencia.html">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Educacion.html">Educacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Competencias.html">Competencias</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-    <img class="background-img" href="background-img" src="sources/background.jpeg" alt="background-img">
-    <div class="bloque">
-        <h1 class="pd">Datos Personales</h1>
+    <div>
+      <img class="background-img" href="background-img" src="sources/background.jpeg" alt="background-img">
+      <div class="bloque">
         <div>
-            <p class="datos">
-                <ul class="lista">
+          <h1 class="pd container-fluid">Datos Personales</h1>
+                <ul class="lista container-fluid">
                     <li>
-                        <b>Nombre</b>
+                        <u><b>Nombre</u>:</b>
                         <br>
                         <span>Matías Ezequiel Pedemonte Sancho</span>
                     </li>
                     <li>
-                        <b>Edad: </b>
+                        <u><b>Edad</u>:</b>
                         <br>
                         <span>18 años</span>
                     </li>
                     <li>
-                        <b>Ubicación:</b>
+                        <u><b>Ubicación</u>:</b>
                         <br>
                         <span>Flores, Capital Federal</span>
                     </li>
                     <li>
-                        <b>Nacionalidad:</b>
+                        <u><b>Nacionalidad</u>:</b>
                         <br>
                         <span>Argentina</span>
                     </li>
-                </ul>   
-                <img class="img" src="sources/profile.jpeg" alt="profile-image">     
-            </p>
+                </ul>     
         </div>
+      </div>
     </div>
-            <footer class="footer2">
-                <div class="row">
-                    <div class="col-sm-6">
-                      <div class="card">
-                        <div class="card-body">
-                            <h2 class="card-title">Redes Sociales</h2>
-                            <a href="https://www.facebook.com/matias.pedemonte.5" target="_blank"><i class='bx bxl-facebook-square'></i>Facebook</a>
-                            
-                            <a href="" target="_blank"><i class='bx bxl-instagram'></i>Instagram</a>
-                            <br>
-                            <a href="https://www.youtube.com/@CristoConUnaLoli/about" target="_blank"><i class='bx bxl-youtube'></i>Youtube</a>
-                            
-                            <a href="https://github.com/catafrulo" target="_blank"><i class='bx bxl-github'></i>Github</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="card">
-                        <div class="card-body">
-                            <h2 class="footer-title">Informacion de contacto</h2>
-                            <p class="footer-text">Telefono: +54 011 6853-1030</p>
-                            <p class="footer-text2">Email: matiasepedemonte@gmail.com</p>
-                            <p class="footer-text3">Linkedin: <a href="https://www.linkedin.com/in/matias-pedemonte-261398268/" target="_blank">https://www.linkedin.com/in/matias-pedemonte-261398268/</a></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </footer>
-        <footer class="footer">
-            <div>
-                <h4>© Matías Pedemonte 2023</h4>
-            </div>
-        </footer>
-    </footer>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-menu">
+          <ul class="f-menu">
+            <li><p class="footer-text">Telefono: +54 11 6853-1030</p></li>
+            <li><p class="footer-text2">Email: matiasepedemonte@gmail.com</p></li>
+            <li><p class="footer-text3">Linkedin: <a href="https://www.linkedin.com/in/matias-pedemonte-261398268/" target="_blank">https://www.linkedin.com/in/matias-pedemonte-261398268/</a></p></li>
+          </ul>
+        </div>
+          <ul class="socials">
+              <li><a href="https://www.facebook.com/matias.pedemonte.5" target="_blank"><i class='bx bxl-facebook-square'></i>Facebook</a></li>
+              <li><a href="" target="_blank"><i class="bx bxl-instagram"></i>Instagram</a></li>
+              <li><a href="https://github.com/catafrulo" target="_blank"><i class='bx bxl-github'></i>Github</a></li>
+              <li><a href="https://wa.link/6re29s" target="_blank"><i class='bx bxl-whatsapp'></i>Whatsapp</a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+        <div>
+          <h4>© Matías Pedemonte 2023</h4>
+        </div>
+      </div>
+  </footer>
 </body>
 </html>
 
-
+    
