@@ -6,7 +6,7 @@
 
 footer{
     position: absolute;
-    bottom: 0;
+    bottom: -12.6vh !important; 
     left: 0;
     right: 0;
     background: #111;
@@ -27,7 +27,7 @@ footer{
 
 .footer-content p{
     max-width: 500px;
-    line-height: 100%;
+    line-height: 90%;
     font-size: 1em;
     color: #cacdd2;
 }

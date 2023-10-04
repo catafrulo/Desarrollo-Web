@@ -4,7 +4,7 @@
 }
 
 .navbar-brand{
-    padding-right: 67%;
+    padding-right: 66%;
 }
 
 .nav-link:hover{
@@ -105,9 +105,8 @@
 .background-img{
     position: absolute;
     justify-content: center;
-    height: 94vh;
     width: 100%;
-    height: 92000000000vh;
+    height: 98vh;
     
 
 }
