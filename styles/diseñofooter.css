@@ -6,14 +6,13 @@
 
 footer{
     position: absolute;
-    bottom: -12.6vh !important; 
+    bottom: -14vh; 
     left: 0;
     right: 0;
     background: #111;
-    height: auto;
+    height: 27vh;
     width: 100vw;
-
-    padding-top: 40px;
+        padding-top: 25px;
     color: #fff;
 }
 
@@ -54,9 +53,9 @@ footer{
     border-radius: 50%;
     border: 1.1px solid white;
     padding: 8px;
-    background-color: #ff96ad;
-    box-shadow: 0 0 5px #ff96ad, 0 0 25px
-    #ff96ad;
+    background-color: #ff96ad1c;
+    box-shadow: 0 0 5px #ff96ad8c, 0 0 25px
+    #ff96ad4a;
 }
 
 .socials a i{
@@ -73,7 +72,7 @@ footer{
 .footer-bottom{
     background: #000;
     padding: 1px;
-    padding-top: 2px;
+    padding-top: 4px;
     text-align: center;
 }
 
@@ -85,7 +84,7 @@ footer{
 @media (min-width:400px) {
 .footer-menu ul{
   display: flex;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 1%;
+  margin-bottom: 0%;
 }
 }

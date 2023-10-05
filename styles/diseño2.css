@@ -4,7 +4,7 @@
 }
 
 .navbar-brand{
-    padding-right: 66%;
+    padding-right: 60%;
 }
 
 .nav-link:hover{
@@ -38,17 +38,15 @@
 }
 
 .bloque {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 8%;
+    margin-bottom: 0;
     position:relative;
-    top: 22%;
-    left: 22%;
+    left: 40%;
     border-radius: 18px;
     background-color:rgba(59, 17, 17, 0.932);
     width: 24%;
     height: auto;
     padding: 0.8%;
-    margin: 2%;
 
 }   
 
@@ -88,8 +86,8 @@
     color: #3b5998;
 }
 
-.bxl-instagram{
-    color: #407e96;    
+.bxl-linkedin{
+    color: #0e76a8;    
 }
 
 .bxl-whatsapp{
