@@ -3,16 +3,13 @@
     margin: 0.4%;
 }
 
-.navbar-brand{
-    padding-right: 69%;
-}
-
 .nav-link:hover{
     background: #ff96ad;
     box-shadow: 0 0 5px #ff96ad, 0 0 25px
-    #ff96ad, 00 50px #ff96ad, 
-    0 0 200px #ff96ad;
+    #ff96ad,
 }
+
+
 
 .experiencia{
     padding-left: 82%;
@@ -51,19 +48,19 @@
 }
 
  .name{
-    text-align: center;
+    
+    text-align: justify;
     justify-content: center;
     padding-top: 5%;
  }
 
- .present{
-    text-align: center;
-
- }
+.present{
+    display: grid;
+    place-items: center;
+}
 
 .nav-link{
-    text-align: center;
-    
+    text-align: justify;
     display: flex;
 }
 

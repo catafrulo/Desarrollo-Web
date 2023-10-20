@@ -3,10 +3,6 @@
     margin: 0.4%;
 }
 
-.navbar-brand{
-    padding-right: 60%;
-}
-
 .nav-link:hover{
     background: #ff96ad;
     box-shadow: 0 0 5px #ff96ad, 0 0 25px
@@ -17,16 +13,11 @@
     display: block;
 }
 
-.experiencia{
-    padding-left: 82%;
-    padding-right: 0.2%;
-}
-
 .bx{
     padding: 0.9%;
     padding-left: 0%;
     padding-top: 1%;
-    font-size: 180%;
+    padding-right: 2.4vh;
 }
 
 
@@ -56,7 +47,6 @@
         width: 100%;
         left: 0%;
     }
-    
 }
 
 .footrer-main{
@@ -79,6 +69,7 @@
 }
 
 .lista li span{
+    padding-top: 0;
     padding: 3%;
 }
 
@@ -104,9 +95,7 @@
     position: absolute;
     justify-content: center;
     width: 100%;
-    height: 98vh;
-    
-
+    height: 100vh;
 }
 
 .bloques{
