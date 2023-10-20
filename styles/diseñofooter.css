@@ -11,7 +11,7 @@ body{
 footer{
     position: relative;
     bottom: -17.5vh; 
-    background: #111;
+    background: rgb(17, 17, 17, 0.98);
     height: 22.875vh;
     width: 100vw;
     padding-top: 25px;

@@ -34,11 +34,15 @@
     justify-content: center;
     display: flex;
     position:fixed;
-    left:0px;
+    left: 0;
     bottom: 0%;
-    height: 56px;
+    height: 5vh;
     width:100%;
-    background:#999;
+    background: #000;
+ }
+
+ .footer h2{
+    color: whitesmoke;
  }
 
  .img{
