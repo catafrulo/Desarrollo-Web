@@ -1,0 +1,94 @@
+.nav-link:hover{
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px
+    #ff96ad;
+}   
+
+.bloques{
+    display:grid;
+    place-items: center;
+    margin: auto;
+}
+
+.bloque {
+    position: relative;
+    border-radius: 18px;
+    background-color:rgba(21, 21, 21, 0.90);
+    color: whitesmoke;
+    width: 24.1%;
+    height: auto;
+    padding: 4px;
+    margin-top: 4vh;
+}   
+.bloque ul{
+    padding-left: 3.64vh;
+}
+
+.bloque2 {
+    position:relative;
+    border-radius: 18px;
+    background-color:rgba(21, 21, 21, 0.90);
+    margin-top: 2vh;
+    margin-bottom: -8.54vh;
+    color: whitesmoke;
+    width: 24.1%;
+    height: auto;
+    padding: 4px;
+}   
+.bloque2 ul{
+    padding-left: 3.64vh;
+}
+
+.bx{
+    padding: 0.9%;
+    padding-left: 0%;
+    padding-top: 1%;
+    padding-right: 2.4vh;
+}
+
+.bxl-facebook-square{
+    color: #3b5998;
+}
+
+.bxl-linkedin{
+    color: #0e76a8;    
+}
+
+.bxl-whatsapp{
+    color: #25D366;
+}
+
+
+
+.bxl-github{
+    color: #0e76a8;
+}
+
+@media (min-width: 400px){
+    .bloque ul{
+        bottom: 100vh;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        
+    }
+}
+
+@media (min-width:800px) {
+    .footer-menu ul{
+      display: flex;
+      bottom: 100vh;
+      margin-top: 1%;
+      margin-bottom: 0%;
+    }
+    }
+
+.background-img{
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+footer{
+    bottom: -18.86vh;
+}
