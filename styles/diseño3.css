@@ -1,4 +1,8 @@
-
+.nav-link:hover{
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px
+    #ff96ad;
+}
 
 footer{
     justify-content: center;
@@ -15,8 +19,54 @@ footer h3{
     color: whitesmoke;
 }
 
-.background-img{
-    position: absolute;
-    width: 100%;
-    height: 100vh;
+.bloque {
+    margin-top: 0%;
+    top: 8vh;
+    margin-bottom: 0;
+    position:relative;
+    left: 8%;
+    border-radius: 18px;
+    background-color:rgba(21, 21, 21, 0.90);
+    color: whitesmoke;
+    width: 40%;
+    height: auto;
+    padding: 4px;
+}   
+.bloque ul{
+    padding-left: 3.64vh;
 }
+
+.bloque2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    position:relative;
+    top: -25.3vh;
+    left: 52%;
+    border-radius: 18px;
+    background-color:rgba(21, 21, 21, 0.90);
+    color: whitesmoke;
+    width: 40%;
+    height: auto;
+    padding: 4px;
+}   
+.bloque2 ul{
+    padding-left: 3.64vh;
+}
+
+.bloque3 {
+    margin-top: 0%;
+    top: -22vh;
+    margin-bottom: 0;
+    position:relative;
+    left: 30%;
+    border-radius: 18px;
+    background-color:rgba(21, 21, 21, 0.90);  
+    color: whitesmoke;
+    width: 40%;
+    height: auto;
+    padding: 4px;
+}   
+.bloque3 ul{
+    padding-left: 3.64vh;
+}
+
