@@ -19,12 +19,7 @@ footer h3{
     color: whitesmoke;
 }
 
-.bloque {
-    margin-top: 0%;
-    top: 8vh;
-    margin-bottom: 0;
-    position:relative;
-    left: 8%;
+.container {
     border-radius: 18px;
     background-color:rgba(21, 21, 21, 0.90);
     color: whitesmoke;
@@ -32,33 +27,9 @@ footer h3{
     height: auto;
     padding: 4px;
 }   
-.bloque ul{
-    padding-left: 3.64vh;
-}
 
-.bloque2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    position:relative;
-    top: -25.3vh;
-    left: 52%;
-    border-radius: 18px;
-    background-color:rgba(21, 21, 21, 0.90);
-    color: whitesmoke;
-    width: 40%;
-    height: auto;
-    padding: 4px;
-}   
-.bloque2 ul{
-    padding-left: 3.64vh;
-}
-
-.bloque3 {
-    margin-top: 0%;
-    top: -22vh;
-    margin-bottom: 0;
-    position:relative;
-    left: 30%;
+.bloquecito {
+    position:relative;  
     border-radius: 18px;
     background-color:rgba(21, 21, 21, 0.90);  
     color: whitesmoke;
@@ -66,7 +37,7 @@ footer h3{
     height: auto;
     padding: 4px;
 }   
-.bloque3 ul{
-    padding-left: 3.64vh;
+.bloquecito ul{
+    padding-left: 3.63vh;
 }
 
