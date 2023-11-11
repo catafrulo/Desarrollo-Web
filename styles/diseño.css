@@ -73,3 +73,10 @@
     0 0 20px #ff96ad,
     0 0 50px #ff96ad;
 }
+
+.fotoPerfil{
+    height: 55vh;
+    width: auto;
+    padding-top: 6vh;
+    padding-bottom: 0;
+}
