@@ -31,13 +31,16 @@ footer h3{
 .bloquecito {
     position:relative;  
     border-radius: 18px;
-    background-color:rgba(21, 21, 21, 0.90);  
-    color: whitesmoke;
     width: 40%;
     height: auto;
-    padding: 4px;
+    padding-top: 8px;
 }   
+
 .bloquecito ul{
     padding-left: 3.63vh;
 }
 
+.row {
+    border: 2px;
+    border-radius: 15px;
+}

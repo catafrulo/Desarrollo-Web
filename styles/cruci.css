@@ -1,0 +1,27 @@
+#quiz-container {
+    text-align: center;
+}
+
+#question-container {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+#result-container {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+#answers-container {
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#start-button{
+    display: grid;
+    place-content: center;
+    margin: auto;    
+}
