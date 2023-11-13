@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="styles/cruci.css">
+</head>
+<body>
+
+<button onclick="iniciarCuestionario()">Iniciar Cuestionario</button>
+
+<div id="questionContainer" class="question-container">
+    <div id="question"></div>
+    <div class="options" id="options"></div>
+    <button onclick="siguientePregunta()">Siguiente</button>
+</div>
+
+<script>
+    const questions = [
+        {
+            question: "¿Cuál es mi color favorito?",
+            options: ["Rojo", "Azul", "Verde", "Negro"],
+            correctAnswer: "Negro",
+        },
+        {
+            question: "¿Cuál de estos lenguajes se utilizar?",
+            options: ["COBOL", ".NET", "C#", "Python"],
+            correctAnswer: "Python",
+        },
+        {
+            question: "¿En qué Universidades estudié/estudio?",
+            options: ["UADE", "UCA, UTN", "UTN, UADE", "UTN, USAL, UADE"],
+            correctAnswer: "UTN, UADE",
+        },
+        {
+            question: "¿En qué año me gradué de la secundaria?",
+            options: ["2011", "2019", "2022", "2023"],
+            correctAnswer: "2022",
+        },
+        {
+            question: "¿Qué carrera estudio en UADE?",
+            options: ["Licenciatura en Gestión de las Tecnologías de la Comunicación", "Bachiller en Ciencias Sociales y Humanísticas", "Licenciatura en Gestión de las Tecnologías de la Información", "Licenciatura en Administración Empresarial"],
+            correctAnswer: "Licenciatura en Gestión de las Tecnologías de la Información",
+        },
+        {
+            question: "¿Cuál es tu hobby principal?",
+            options: ["Pintar", "Hacer Deporte", "Cocinar", "Programar"],
+            correctAnswer: "Programar",
+        },
+    ];
+
+    let currentQuestion = 0;
+    let score = 0;
+
+    function iniciarCuestionario() {
+        document.getElementById("questionContainer").style.display = "block";
+        mostrarPregunta();
+    }
+
+    function mostrarPregunta() {
+        const questionElement = document.getElementById("question");
+        const optionsElement = document.getElementById("options");
+
+        questionElement.textContent = questions[currentQuestion].question;
+
+        optionsElement.innerHTML = "";
+        for (let i = 0; i < questions[currentQuestion].options.length; i++) {
+            const optionButton = document.createElement("button");
+            optionButton.textContent = questions[currentQuestion].options[i];
+            optionButton.onclick = function() {
+                verificarRespuesta(questions[currentQuestion].options[i]);
+            };
+            optionsElement.appendChild(optionButton);
+        }
+    }
+
+    function verificarRespuesta(respuestaUsuario) {
+        const respuestaCorrecta = questions[currentQuestion].correctAnswer;
+
+        if (respuestaUsuario === respuestaCorrecta) {
+            score++;
+        }
+
+        siguientePregunta();
+    }
+
+    function siguientePregunta() {
+        currentQuestion++;
+
+        if (currentQuestion < questions.length) {
+            mostrarPregunta();
+        } else {
+            mostrarResultado();
+        }
+    }
+
+    function mostrarResultado() {
+        alert(`Cuestionario completado\n\nPreguntas correctas: ${score} de ${questions.length}`);
+        reiniciarCuestionario();
+    }
+
+    function reiniciarCuestionario() {
+        currentQuestion = 0;
+        score = 0;
+        document.getElementById("questionContainer").style.display = "none";
+    }
+</script>
+
+</body>
+</html>

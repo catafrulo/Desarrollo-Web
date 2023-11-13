@@ -42,31 +42,24 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextButton = document.getElementById("next-button");
 
     startButton.addEventListener("click", function () {
-        // Abre una nueva ventana para el quiz
+
         const quizWindow = window.open("", "Quiz Window", "width=600,height=400");
 
-        // Agrega el contenido del quiz a la nueva ventana
         const quizContent = `
             <html>
-            <head>
-                <title>Quiz</title>
-                <link rel="stylesheet" href="styles/cruci.css">
-            </head>
-            <body>
-                <div id="quiz-container">
-                    <h1>My Quiz</h1>
-                    <div id="question-container"></div>
-                    <button id="next-button" style="display:none;">Next</button>
-                    <div id="result-container"></div>
-                    <div id="answers-container"></div>
-                </div>
-                <script>
-                    // Inserta aquí tu código JavaScript original
-                    // ...
-
-                    // Asegúrate de ajustar el contenido del script según sea necesario
-                </script>
-            </body>
+                <head>
+                    <title>Quiz</title>
+                    <link rel="stylesheet" href="styles/cruci.css">
+                </head>
+                <body>
+                    <div id="quiz-container">
+                        <h1>My Quiz</h1>
+                        <div id="question-container"></div>
+                        <button id="next-button" style="display:none;">Next</button>
+                        <div id="result-container"></div>
+                        <div id="answers-container"></div>
+                    </div>
+                </body>
             </html>
         `;
 
@@ -123,3 +116,4 @@ document.addEventListener("DOMContentLoaded", function () {
         answersContainer.innerHTML = `<h2>Respuestas Correctas</h2>${answersHTML}`;
     }
 });
+
