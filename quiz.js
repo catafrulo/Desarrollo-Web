@@ -43,7 +43,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     startButton.addEventListener("click", function () {
 
-        const quizWindow = window.open("", "Quiz Window", "width=600,height=400");
 
         const quizContent = `
             <html>
