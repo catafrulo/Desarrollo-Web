@@ -50,10 +50,10 @@
 }
 
  .name{
-    
     text-align: justify;
     justify-content: center;
-    padding-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
  }
 
 .present{
@@ -77,6 +77,8 @@
 .fotoPerfil{
     height: 55vh;
     width: auto;
-    padding-top: 6vh;
+    margin-top: 5vh;
     padding-bottom: 0;
+    border: 3px;
+    border-radius: 16px;
 }
